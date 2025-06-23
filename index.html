@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Resistor Value Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Resistor Value Calculator</h1>
+    
+    <div>
+        <label>1st Band:</label>
+        <select id="band1">
+            <option value="0">Black</option>
+            <option value="1">Brown</option>
+            <option value="2">Red</option>
+            <option value="3">Orange</option>
+            <option value="4">Yellow</option>
+            <option value="5">Green</option>
+            <option value="6">Blue</option>
+            <option value="7">Violet</option>
+            <option value="8">Gray</option>
+            <option value="9">White</option>
+        </select>
+        
+        <label>2nd Band:</label>
+        <select id="band2">
+            <option value="0">Black</option>
+            <option value="1">Brown</option>
+            <option value="2">Red</option>
+            <option value="3">Orange</option>
+            <option value="4">Yellow</option>
+            <option value="5">Green</option>
+            <option value="6">Blue</option>
+            <option value="7">Violet</option>
+            <option value="8">Gray</option>
+            <option value="9">White</option>
+        </select>
+        
+        <label>Multiplier:</label>
+        <select id="multiplier">
+            <option value="1">Black (x1)</option>
+            <option value="10">Brown (x10)</option>
+            <option value="100">Red (x100)</option>
+            <option value="1000">Orange (x1k)</option>
+            <option value="10000">Yellow (x10k)</option>
+            <option value="100000">Green (x100k)</option>
+            <option value="1000000">Blue (x1M)</option>
+            <option value="10000000">Violet (x10M)</option>
+        </select>
+        
+        <button onclick="calculateResistor()">Calculate</button>
+        
+        <h2 id="result">Resistance: </h2>
+        
+        <br>
+        <a href="login.html">Login</a> | <a href="signup.html">Signup</a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
